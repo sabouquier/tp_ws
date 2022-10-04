@@ -44,7 +44,33 @@ Date: Tue, 04 Oct 2022 14:45:56 GMT
 
  curl -X POST -H "Content-Type: text/plain" --data "de la data" https://webhook.site/6f594809-a4b4-483e-841b-0c3b0a00ed
  
- 
+ <!DOCTYPE html>
+<html>
+<head>
+    <title>Error: Alias 6f594809-a4b4-483e-841b-0c3b0a00ed not found - Webhook.site</title>
+    <link href="/assets/css/libs/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link href="/css/app.css" rel="stylesheet">
+</head>
+<body>
+<div class="container" style="padding: 40px">
+    <div class="row">
+        <div class="col-sm-4 col-sm-offset-4 text-center">
+            <h1>Webhook.site Error</h1>
+            <p class="lead">404 Alias 6f594809-a4b4-483e-841b-0c3b0a00ed not found</p>
+                        <p class="small">
+                    The URL was deleted manually, or expired automatically.
+
+    To avoid URLs expiring automatically, you can
+    <a href="/register">upgrade to Webhook.site Pro or Enterprise</a>.
+            </p>
+                        <br>
+            <p><a class="btn btn-primary" href="/" role="button">&larr; Back to Webhook.site</a></p>
+            <br>
+            <p class="small muted">Copyright &copy; 2022 Webhook ApS</p>
+        </div>
+    </div>
+</div>
+</body>
 
 ## Faire un appel curl en envoyant du JSON (avec les bons headers) : copier la commande exécutée et indiquer la requête et la réponse
 
