@@ -42,9 +42,13 @@ Date: Tue, 04 Oct 2022 14:45:56 GMT
 <
 ## Faire un appel curl en envoyant du texte brut : copier la commande exécutée et indiquer la requête et la réponse
 
+ curl -X POST -H "Content-Type: text/plain" --data "de la data" https://webhook.site/6f594809-a4b4-483e-841b-0c3b0a00ed
+ 
+ 
 
 ## Faire un appel curl en envoyant du JSON (avec les bons headers) : copier la commande exécutée et indiquer la requête et la réponse
 
+curl -X POST https://webhook.site/6f594809-a4b4-483e-841b-0c3b0a00edfe -H 'Content-Type: application/json' -d '{"titre":"test","annee":"1294"}'
 
 ## Faire une appel curl en envoyant une basic authentication en utilisant 2 méthodes différentes : copier les commandes exécutées et indiquer la requête et la réponse à chaque fois 
 
