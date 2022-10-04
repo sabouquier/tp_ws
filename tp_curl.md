@@ -13,27 +13,6 @@ HTTP/1.1
 
 ## Quels sont les headers que l'on envoie dans la requête ? Quels sont leur sens ?
 
-ALPN, offering h2
-* ALPN, offering http/1.1
-* successfully set certificate verify locations:
-*  CAfile: /etc/ssl/certs/ca-certificates.crt
-*  CApath: /etc/ssl/certs
-* TLSv1.3 (OUT), TLS handshake, Client hello (1):
-* TLSv1.3 (IN), TLS handshake, Server hello (2):
-* TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):
-* TLSv1.3 (IN), TLS handshake, Certificate (11):
-* TLSv1.3 (IN), TLS handshake, CERT verify (15):
-* TLSv1.3 (IN), TLS handshake, Finished (20):
-* TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):
-* TLSv1.3 (OUT), TLS handshake, Finished (20):
-* SSL connection using TLSv1.3 / TLS_AES_256_GCM_SHA384
-* ALPN, server did not agree to a protocol
-* Server certificate:
-*  subject: CN=webhook.site
-*  start date: Jul 31 23:09:19 2022 GMT
-*  expire date: Oct 29 23:09:18 2022 GMT
-*  issuer: C=US; O=Let's Encrypt; CN=R3
-*  SSL certificate verify ok.
 > GET /6f594809-a4b4-483e-841b-0c3b0a00edfe HTTP/1.1
 > Host: webhook.site
 > User-Agent: curl/7.74.0
