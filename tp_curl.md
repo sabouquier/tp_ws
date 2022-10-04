@@ -52,20 +52,14 @@ ALPN, offering h2
 X-Request-Id: 3b742095-f3ea-4970-8935-d65f87853e6d
 
 ## Quels headers recevez vous dans la response ? Quels sont leur sens ?
-
-* TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):
-* TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):
-* old SSL session ID is stale, removing
-* Mark bundle as not supporting multiuse
-< HTTP/1.1 200 OK
-< Server: nginx
-< Content-Type: text/plain; charset=UTF-8
-< Transfer-Encoding: chunked
-< Vary: Accept-Encoding
-< X-Request-Id: df7011dc-b834-437f-9165-61297b51745f
-< X-Token-Id: 6f594809-a4b4-483e-841b-0c3b0a00edfe
-< Cache-Control: no-cache, private
-< Date: Tue, 04 Oct 2022 14:43:56 GMT
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: text/plain; charset=UTF-8
+Vary: Accept-Encoding
+X-Request-Id: 29605326-32fe-45cf-a572-7ea5424b1184
+X-Token-Id: 6f594809-a4b4-483e-841b-0c3b0a00edfe
+Cache-Control: no-cache, private
+Date: Tue, 04 Oct 2022 14:45:56 GMT
 <
 ## Faire un appel curl en envoyant du texte brut : copier la commande exécutée et indiquer la requête et la réponse
 
