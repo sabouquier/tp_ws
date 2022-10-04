@@ -89,16 +89,21 @@ curl -X POST https://webhook.site/6f594809-a4b4-483e-841b-0c3b0a00edfe -H 'Conte
 
 
 ## Exécuter la commande suivante puis indiquer la réponse : curl https://demo.api-platform.com/top_books/1
-
+{"@context":"\/contexts\/TopBook","@id":"\/top_books\/1","@type":"TopBook","id":1,"title":"Depuis l\u0027au-delà","author":"Werber Bernard","part":"","place":"F WER","borrowCount":9}
 
 ## Exécuter la commande suivante puis indiquer la réponse : curl https://demo.api-platform.com/top_books/9999
-
+{"@context":"\/contexts\/Error","@type":"hydra:Error","hydra:title":"An error occurred","hydra:description":"Not Found"}
 
 ## Quel est le code HTTP ? Que signifie-t-il ?
 
 
 ## Exécuter la requête suivante et copier la réponse : curl https://google.fr
-
+<HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+<TITLE>301 Moved</TITLE></HEAD><BODY>
+<H1>301 Moved</H1>
+The document has moved
+<A HREF="https://www.google.fr/">here</A>.
+</BODY></HTML>
 
 ## Quel est le code HTTP reçu ? Pouvez-vous expliquer cette réponse ?
 
